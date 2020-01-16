@@ -16,46 +16,43 @@ echo "Installing VS Code"
 brew cask install visual-studio-code
 
 echo "Installing 1Password"
-brew cask 1password
+brew cask install 1password
 
 echo "Installing iTerm2"
-brew cask iterm2
+brew cask install iterm2
 
 echo "Installing Spotify"
-brew cask spotify
+brew cask install spotify
 
 echo "Installing Skype"
-brew cask skype
+brew cask install skype
 
 echo "Installing Handbrake"
-brew cask handbrake
+brew cask install handbrake
 
 echo "Installing Firefox"
-brew cask firefox
+brew cask install firefox
 
 echo "Installing Robo 3T"
-brew cask robo-3t
+brew cask install robo-3t
 
 echo "Installing Google Drive File Stream"
-brew cask google-drive-file-stream
+brew cask install google-drive-file-stream
 
 echo "Installing DBeaver"
-brew cask dbeaver-community
+brew cask install dbeaver-community
 
 echo "Installing Reactotron"
-brew cask reactotron
+brew cask install reactotron
 
 echo "Installing IINA Player"
-brew cask iina
+brew cask install iina
 
 echo "Installing Postman"
-brew cask postman
+brew cask install postman
 
 echo "Installing AWS CLI"
 brew install awscli
-
-echo "Installing ffmpeg"
-brew install ffmpeg
 
 echo "Installing Watchman"
 brew install watchman
