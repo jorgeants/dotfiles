@@ -7,49 +7,52 @@ ln -s $(pwd)/.gitconfig ~/.gitconfig
 echo "Installing binaries:"
 
 echo "Installing Homebrew"
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 echo "Installing chrome"
-brew cask install google-chrome
+brew install --cask google-chrome
 
 echo "Installing VS Code"
-brew cask install visual-studio-code
+brew install --cask visual-studio-code
 
 echo "Installing 1Password"
-brew cask install 1password
+brew install --cask 1password
 
 echo "Installing iTerm2"
-brew cask install iterm2
+brew install --cask iterm2
 
 echo "Installing Spotify"
-brew cask install spotify
+brew install --cask spotify
+
+echo "Installing Slack"
+brew install --cask slack
 
 echo "Installing Skype"
-brew cask install skype
+brew install --cask skype
 
 echo "Installing Handbrake"
-brew cask install handbrake
+brew install --cask handbrake
 
 echo "Installing Firefox"
-brew cask install firefox
+brew install --cask firefox
 
 echo "Installing Robo 3T"
-brew cask install robo-3t
+brew install --cask robo-3t
 
-echo "Installing Google Drive File Stream"
-brew cask install google-drive-file-stream
+echo "Installing Google Drive"
+brew install --cask google-drive
 
 echo "Installing DBeaver"
-brew cask install dbeaver-community
+brew install --cask dbeaver-community
 
 echo "Installing Reactotron"
-brew cask install reactotron
+brew install --cask reactotron
 
 echo "Installing IINA Player"
-brew cask install iina
+brew install --cask iina
 
 echo "Installing Postman"
-brew cask install postman
+brew install --cask postman
 
 echo "Installing AWS CLI"
 brew install awscli
@@ -61,17 +64,25 @@ echo "Installing Cocoapods"
 brew install cocoapods
 
 echo "Installing Java JDK"
-brew tap AdoptOpenJDK/openjdk
-brew cask install adoptopenjdk8
+brew install --cask adoptopenjdk/openjdk/adoptopenjdk8
 
 echo "Installing FiraCode"
-brew tap caskroom/fonts
-brew cask install font-fira-code
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code
+
+echo "Installing Docker"
+brew install --cask docker
+
+echo "Installing Transmission"
+brew install --cask transmission
+
+echo "Installing Notion"
+brew install --cask notion
 
 echo "Making Zsh the default shell"
 chsh -s $(which zsh)
 
 echo "Installing Oh My Zsh"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo "Done!"
