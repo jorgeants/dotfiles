@@ -48,6 +48,9 @@ brew install --cask dbeaver-community
 echo "Installing Reactotron"
 brew install --cask reactotron
 
+echo "Installing Flipper"
+brew install --cask flipper
+
 echo "Installing IINA Player"
 brew install --cask iina
 
