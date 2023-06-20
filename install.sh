@@ -48,6 +48,9 @@ brew install --cask dbeaver-community
 echo "Installing Reactotron"
 brew install --cask reactotron
 
+echo "Installing Flipper"
+brew install --cask flipper
+
 echo "Installing IINA Player"
 brew install --cask iina
 
@@ -63,8 +66,8 @@ brew install watchman
 echo "Installing Cocoapods"
 brew install cocoapods
 
-echo "Installing Java JDK"
-brew install --cask adoptopenjdk/openjdk/adoptopenjdk8
+echo "Installing Java with OpenJDK"
+brew install --cask zulu11
 
 echo "Installing FiraCode"
 brew tap homebrew/cask-fonts
