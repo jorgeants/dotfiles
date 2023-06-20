@@ -66,8 +66,8 @@ brew install watchman
 echo "Installing Cocoapods"
 brew install cocoapods
 
-echo "Installing Java JDK"
-brew install --cask adoptopenjdk/openjdk/adoptopenjdk8
+echo "Installing Java with OpenJDK"
+brew install --cask zulu11
 
 echo "Installing FiraCode"
 brew tap homebrew/cask-fonts
